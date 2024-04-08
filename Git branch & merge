@@ -1,0 +1,50 @@
+git branch
+
+$ git branch
+ can be used to list, create, or delete branches.
+
+git branch <name>
+
+$ git branch <name>
+ can be used to create a new branch in your repository. 
+
+git branch -d <name>
+
+$ git branch -d <name>
+ can be used to delete a branch from your repository.
+
+git branch -D <name>
+
+$ git branch -D <branch>
+ forces a branch to be deleted.
+
+git checkout <branch>
+
+$ git checkout <branch>
+ switches your current working branch.
+
+git checkout -b <new-branch>
+
+$ git checkout -b <new-branch>
+ creates a new branch and makes it your current working branch. 
+
+git merge <branch>
+
+$ git merge <branch>
+ joins changes from one branch into another branch.
+
+git merge --abort
+
+ 
+$ git merge --abort
+ can only be used after merge conflicts. This command will abort the merge and try to go back to the pre-merge state.
+
+git log --graph 
+
+$ git log --graph 
+prints an ASCII graph of the commit and merge history.
+
+git log --oneline
+
+$ git log --oneline
+ prints each commit on a single line.
